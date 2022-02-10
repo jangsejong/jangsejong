@@ -1,6 +1,8 @@
 <div align="center">
 
-- ✨Tech Stack ✨
+
+
+ ✨Tech Stack ✨
 
 <b><img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=TensorFlow&logoColor=white"/></a>
