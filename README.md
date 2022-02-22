@@ -9,6 +9,10 @@
 <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=Jupyter&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Visual Studio-5C2D91?style=flat-square&logo=Visual Studio&logoColor=white"/></a>
 
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=jangsejong)](https://github.com/jangsejong/github-readme-stats)
+
+
+
 
 
 
