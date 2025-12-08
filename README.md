@@ -7,10 +7,8 @@
 <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=NumPy&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=Jupyter&logoColor=white"/></a>
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=jangsejong)](https://github.com/jangsejong/github-readme-stats)
-
 ### 💌  t o d a y 
 
-<br><br><br><br><br>
+<br><br><br><br>
 
 </div>
