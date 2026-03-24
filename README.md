@@ -59,9 +59,9 @@ Python 기반 **ETL · AI 데이터 파이프라인 · LLM 시스템 개발**
 
 <p align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight"/>
+<img src="https://github-readme-stats.vercel.app/api?username=jangsejong&show_icons=true&theme=tokyonight"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jangsejong&layout=compact&theme=tokyonight"/>
 
 </p>
 
@@ -87,8 +87,9 @@ Python 기반 **ETL · AI 데이터 파이프라인 · LLM 시스템 개발**
 
 # 📫 Contact
 
-- GitHub : https://github.com/YOUR_USERNAME
-- Email : your@email.com
+- GitHub : https://github.com/jangsejong
+- Email : sjjang@synergion.com
+- Phone : 010-8931-이육구일 
 
 ---
 
