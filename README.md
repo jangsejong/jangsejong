@@ -62,9 +62,9 @@ Python 기반 **ETL · AI 데이터 파이프라인 · LLM 시스템 개발**
 
 <p align="center">
 
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=jangsejong&show_icons=true&theme=tokyonight"/>
+<img height="150" src="https://YOUR_VERCEL_DOMAIN/api?username=jangsejong&show_icons=true&theme=tokyonight"/>
 
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jangsejong&layout=compact&theme=tokyonight"/>
+<img height="150" src="https://YOUR_VERCEL_DOMAIN/api/top-langs/?username=jangsejong&layout=compact&theme=tokyonight"/>
 
 </p>
 
