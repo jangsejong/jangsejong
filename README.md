@@ -65,6 +65,17 @@ Building **On-Premise LLM Systems · RAG Pipelines · Agentic Development**
 
 ---
 
+## 💼 Career Projects
+
+| 프로젝트 | 수행 내용 | 분야 |
+|---|---|---|
+| **지방재정 지능화 서비스 구축사업** (2025) | 과기정통부·NIA 초거대 AI 서비스 개발 지원사업 공공과제(한국지역정보개발원 발주 · 행정안전부 협력) — 지방재정정책지원시스템 '정책도움e' 생성형 AI 서비스의 기반이 되는 **지방재정 데이터 ETL 파이프라인 구축 및 DB 설계·마이그레이션** 수행 | Public AI · Data Engineering |
+| **SPC 생성형 AI 신제품 개발 플랫폼 'SGPD'** (2023) | 시장 트렌드 빅데이터 분석에 ChatGPT·Stable Diffusion을 결합, 키워드 입력만으로 제품 아이디어·설명·샘플 이미지를 생성하는 플랫폼(SPC삼립 베이커리 부문 우선 도입) — **프로토타입 개발** | Generative AI |
+| **대상(주) 시장 데이터 대시보드** | 청정원·종가 브랜드의 식품기업 대상(주)을 고객사로, 시장·커머스 데이터를 **매주 크롤링·정제하여 대시보드로 제공** | Data Pipeline · Dashboard |
+| **바노바기 마케팅 데이터 분석** | 성형외과에서 출발해 화장품 브랜드로 확장한 메디컬 뷰티 그룹 바노바기의 **마케팅 데이터 분석** 수행 | Marketing Analytics |
+
+---
+
 ## 🎯 Current Focus
 
 - **On-Premise / 폐쇄망 LLM 서비스** — RAG, 서빙, 오프라인 패키징·배포
@@ -102,6 +113,9 @@ Phone : 010-8931-이육구일
 
 <!--
 Changelog
+### v2.1.0 (2026-07-13)
+- Career Projects 섹션 추가: 지방재정 지능화(ETL/DB), SPC SGPD 프로토타입, 대상(주) 크롤링 대시보드, 바노바기 마케팅 분석 (공개 뉴스 기반 맥락 보강)
+
 ### v2.0.0 (2026-07-13)
 - 프로필 전면 개편: 2026 프로젝트 포트폴리오 반영 (RAG/온디바이스/SaaS/보안/데이터 파이프라인)
 - 깨진 GitHub Stats 카드(YOUR_VERCEL_DOMAIN 플레이스홀더) → ghchart + streak-stats로 교체
