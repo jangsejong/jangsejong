@@ -2,7 +2,7 @@
 
 # 👋 Sejong Jang (Toma)
 
-**AI / Data Engineer**
+**AI / Data Engineer @ 시너지온 기업부설연구소 TSP팀**
 
 Building **On-Premise LLM Systems · RAG Pipelines · Agentic Development**
 
@@ -47,7 +47,7 @@ Building **On-Premise LLM Systems · RAG Pipelines · Agentic Development**
 
 ## 🚀 Featured Projects (2026)
 
-> 업무 특성상 대부분 private / 사내 저장소입니다. 문의 주시면 소개 가능한 범위에서 설명드립니다.
+> 시너지온 기업부설연구소 TSP팀에서 수행 중인 프로젝트들입니다. 업무 특성상 대부분 private / 사내 저장소이며, 문의 주시면 소개 가능한 범위에서 설명드립니다.
 
 | 프로젝트 | 소개 | 핵심 기술 | 상태 |
 |---|---|---|---|
@@ -70,6 +70,7 @@ Building **On-Premise LLM Systems · RAG Pipelines · Agentic Development**
 | 프로젝트 | 수행 내용 | 분야 |
 |---|---|---|
 | **지방재정 지능화 서비스 구축사업** (2025) | 과기정통부·NIA 초거대 AI 서비스 개발 지원사업 공공과제(한국지역정보개발원 발주 · 행정안전부 협력) — 지방재정정책지원시스템 '정책도움e' 생성형 AI 서비스의 기반이 되는 **지방재정 데이터 ETL 파이프라인 구축 및 DB 설계·마이그레이션** 수행 | AI · Data Engineering |
+| **글로벌 가상피팅 커뮤니티 플랫폼 구축 연구과제** (2024) | 중소기업기술정보진흥원(TIPA) R&D 과제 — 2D/3D Hybrid Virtual Try-on 엔진 개발을 통한 글로벌 가상피팅 커뮤니티 플랫폼 구축, **연구원으로 참여** | Computer Vision · R&D |
 | **대상(주) 시장 데이터 대시보드** (2024) | 청정원·종가 브랜드의 식품기업 대상(주)을 고객사로, 시장·커머스 데이터를 **매주 크롤링·정제하여 대시보드로 제공** | Data Pipeline |
 | **바노바기 마케팅 데이터 분석** (2024) | 성형외과에서 출발해 화장품 브랜드로 확장한 메디컬 뷰티 그룹 바노바기의 **마케팅 데이터 분석** 수행 | Marketing Analytics |
 | **SPC 생성형 AI 신제품 개발 플랫폼 'SGPD'** (2023) | 시장 트렌드 빅데이터 분석에 ChatGPT·Stable Diffusion을 결합, 키워드 입력만으로 제품 아이디어·설명·샘플 이미지를 생성하는 플랫폼(SPC삼립 베이커리 부문 우선 도입) — **프로토타입 개발** | Generative AI |
@@ -116,6 +117,10 @@ Phone : 010-8931-이육구일
 
 <!--
 Changelog
+### v2.3.0 (2026-07-13)
+- Career Projects에 TIPA 가상피팅 연구과제(2024, 2D/3D Hybrid Virtual Try-on, 연구원 참여) 추가
+- 현재 소속(시너지온 기업부설연구소 TSP팀) 헤더·Featured Projects 안내문에 반영
+
 ### v2.2.0 (2026-07-13)
 - Career Projects에 커리어 타임라인 3행 추가: 베트남 KITS 사업 PM(2022), K-디지털 트레이닝→AI 개발자 전환(2021), Python 개발자 사내 프로젝트(~2020)
 - 표를 연도 내림차순으로 정렬
