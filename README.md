@@ -89,18 +89,6 @@ Building **On-Premise LLM Systems · RAG Pipelines · Agentic Development**
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-<img src="https://streak-stats.demolab.com?user=jangsejong&theme=tokyonight&hide_border=true" height="170" alt="GitHub Streak"/>
-</p>
-
-<p align="center">
-<img src="https://ghchart.rshah.org/409ba5/jangsejong" width="90%" alt="Contribution Graph"/>
-</p>
-
----
-
 ## 📫 Contact
 
 GitHub : https://github.com/jangsejong<br>
