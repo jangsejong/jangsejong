@@ -52,7 +52,7 @@ Building **On-Premise LLM Systems · RAG Pipelines · Agentic Development**
 | 프로젝트 | 소개 | 핵심 기술 | 상태 |
 |---|---|---|---|
 | **여권 헬프데스크 RAG 챗봇** | 폐쇄망 단일 Docker 컨테이너 온프레미스 RAG — 하이브리드 검색(bge-m3 + 형태소 BM25 + RRF), PII 필터·안전 게이트, PDF 출처 하이라이트 | FastAPI · Ollama(Gemma) · SQLite VectorStore · Vue 3 | ✅ 운영 배포 |
-| **온기 (ONGI)** | 디지털 취약계층을 위한 온디바이스 AI 스마트폰 접근성 도우미 — | Flutter · Gemma 4 E2B on-device · LiteRT-LM | 🏗 개발 중 (제출 시 공개) |
+| **[온기 (ONGI)](https://github.com/jangsejong/ongi-open)** | 디지털 취약계층을 위한 온디바이스 AI 스마트폰 접근성 도우미 — 앱 자동 분류 큰글씨 런처·음성 명령 실행·생활 루틴 추천 (2026 오픈소스 개발자대회 출품) | Flutter · Gemma 4 E2B on-device · LiteRT-LM | ✅ 공개 |
 | **biz-radar** | 정부지원사업 공고 7개 소스 일일 자동 수집 + 시맨틱 임베딩 매칭 큐레이션 SaaS | FastAPI · Next.js 15 · PostgreSQL · Qdrant | ✅ 사내 운영 |
 | **돋움 (dodum)** | 보험설계사 영업 트레이닝 — AI 가상고객 롤플레이, 루브릭 자동평가, 발음 명료도(GOP) 분석, 상품문서 사실검증 | Next.js · Ollama · wav2vec2 · CosyVoice2 | 🧪 POC |
 | **Ai-Fin** | 중소기업 재무 자동화 AI 플랫폼 — 4-모델 패밀리 설계, 4중 품질 게이트 데이터 파이프라인, 프라이버시 보존 학습 (30개월 국책 R&D) | Python · LangGraph · ChromaDB · vLLM | 🏗 개발 중 |
@@ -105,6 +105,9 @@ Phone : 010-8931-이육구일
 
 <!--
 Changelog
+### v2.4.0 (2026-08-24)
+- 온기(ONGI) 공개 저장소 ongi-open 링크 추가, 설명 보강, 상태 개발 중 → 공개로 갱신
+
 ### v2.3.0 (2026-07-13)
 - Career Projects에 TIPA 가상피팅 연구과제(2024, 2D/3D Hybrid Virtual Try-on, 연구원 참여) 추가
 - 현재 소속(시너지온 기업부설연구소 TSP팀) 헤더·Featured Projects 안내문에 반영
