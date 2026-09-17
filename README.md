@@ -52,13 +52,16 @@ Building **On-Premise LLM Systems · RAG Pipelines · Agentic Development**
 | 프로젝트 | 소개 | 핵심 기술 | 상태 |
 |---|---|---|---|
 | **여권 헬프데스크 RAG 챗봇** | 폐쇄망 단일 Docker 컨테이너 온프레미스 RAG — 하이브리드 검색(bge-m3 + 형태소 BM25 + RRF), PII 필터·안전 게이트, PDF 출처 하이라이트 | FastAPI · Ollama(Gemma) · SQLite VectorStore · Vue 3 | ✅ 운영 배포 |
-| **[온기 (ONGI)](https://github.com/jangsejong/ongi-open)** | 디지털 취약계층을 위한 온디바이스 AI 스마트폰 접근성 도우미 — 앱 자동 분류 큰글씨 런처·음성 명령 실행·생활 루틴 추천 (2026 오픈소스 개발자대회 출품) | Flutter · Gemma 4 E2B on-device · LiteRT-LM | ✅ 공개 |
+| **온기 (ONGI)** | 디지털 취약계층을 위한 온디바이스 AI 스마트폰 접근성 도우미 — 앱 자동 분류 큰글씨 런처·음성 명령 실행·생활 루틴 추천 (2026 오픈소스 개발자대회 출품) | Flutter · Gemma 4 E2B on-device · LiteRT-LM | ✅ 출품 완료 |
+| **하늘솟** | 금융사기 예방·탐지·구제 3단계 AI 동행 서비스 — 보이스피싱 3축 판별 PWA (2026 금융 AI Challenge 출품, 팀 TSP) | Next.js 15 · FastAPI · Spring Boot · GCP Cloud Run | ✅ 출품 완료 |
 | **biz-radar** | 정부지원사업 공고 7개 소스 일일 자동 수집 + 시맨틱 임베딩 매칭 큐레이션 SaaS | FastAPI · Next.js 15 · PostgreSQL · Qdrant | ✅ 사내 운영 |
 | **돋움 (dodum)** | 보험설계사 영업 트레이닝 — AI 가상고객 롤플레이, 루브릭 자동평가, 발음 명료도(GOP) 분석, 상품문서 사실검증 | Next.js · Ollama · wav2vec2 · CosyVoice2 | 🧪 POC |
 | **Ai-Fin** | 중소기업 재무 자동화 AI 플랫폼 — 4-모델 패밀리 설계, 4중 품질 게이트 데이터 파이프라인, 프라이버시 보존 학습 (30개월 국책 R&D) | Python · LangGraph · ChromaDB · vLLM | 🏗 개발 중 |
 | **VulnAgent** | KISA 기술 취약점 가이드 기반 진단·조치 자동화 데스크톱 플랫폼 — 11개 분야 확장형 에이전트 아키텍처(Unix·Windows 우선 구현), 실시간 스트리밍 UI | PySide6 · Bash/PowerShell 에이전트 · SQLite | 🏗 개발 중 |
 | **qna-dataset-generator** | PDF→QnA 데이터셋 6단계 파이프라인 — 시맨틱 청킹, LLM Judge 평가, ROUGE 중복·과복사 검증, 멀티호스트 GPU 병렬 | Python · Ollama · pdfplumber | ✅ 완료 (7,800+ QnA) |
-| **[claude_dashboard](https://github.com/jangsejong/claude_dashboard)** | Claude Code 팀 토큰 사용량 대시보드 — 로컬 JSONL 로그 파싱 기반 증분 수집·멱등 적재·시각화 | FastAPI · PostgreSQL · Grafana | ✅ 팀 운영 |
+| **claude_dashboard** | Claude Code 팀 토큰 사용량 대시보드 — 로컬 JSONL 로그 파싱 기반 증분 수집·멱등 적재·시각화 | FastAPI · PostgreSQL · Grafana | ✅ 팀 운영 |
+| **tistory-mcp** | 블로그 운영을 AI 클라이언트의 MCP 도구로 노출 — 세션 기반 API 어댑터, 마크다운→HTML 변환, 발행 안전 게이트(비공개 기본·삭제 확인·호출 상한) | Python · MCP SDK · httpx · Playwright | ✅ v0.1.2 |
+| **wslim** | WSL2 가상디스크 용량 회수 자동화 — 부팅 없는 fstrim, 기본 dry-run, 볼륨 삭제 경로 없음 | PowerShell · Pester | ✅ v0.3.1 |
 | **AI Usage Hub** | 전사 AI/LLM 사용량 통합 모니터링 — 2계층 수집(Admin API + LiteLLM 게이트웨이), Shadow AI 가시화, 인원 단위 비용 집계 | FastAPI · Next.js · LiteLLM | 🧪 POC |
 
 이 외에도 **의약품 안전성(약물감시) 솔루션 설계**(FHIR/HL7/MedDRA), **Confluence 연구노트 자동화**, **Tailscale 기반 원격 인프라 구성** 등 기획·자동화 작업을 병행합니다.
@@ -84,7 +87,7 @@ Building **On-Premise LLM Systems · RAG Pipelines · Agentic Development**
 
 - **On-Premise / 폐쇄망 LLM 서비스** — RAG, 서빙, 오프라인 패키징·배포
 - **On-Device AI** — Gemma 4 + LiteRT, 저사양 기기 안정 추론
-- **Agentic Development** — Claude Code 멀티에이전트 워크플로, 자동 코드리뷰
+- **Agentic Development** — Claude Code 멀티에이전트 워크플로, 자동 코드리뷰, MCP 서버 개발
 - **AI 데이터 파이프라인** — 수집 → 정제 → 데이터셋 생성 → LLM 평가
 
 ---
@@ -105,6 +108,11 @@ Phone : 010-8931-이육구일
 
 <!--
 Changelog
+### v2.5.0 (2026-09-17)
+- Featured Projects에 하늘솟(2026 금융 AI Challenge 출품)·tistory-mcp·wslim 3종 추가
+- 온기(ONGI)·claude_dashboard 저장소 링크 제거 — 두 저장소가 비공개로 전환되어 방문자에게 404였음
+- 온기 상태 공개 → 출품 완료로 정정, Current Focus에 MCP 서버 개발 추가
+
 ### v2.4.0 (2026-08-24)
 - 온기(ONGI) 공개 저장소 ongi-open 링크 추가, 설명 보강, 상태 개발 중 → 공개로 갱신
 
