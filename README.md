@@ -60,7 +60,7 @@ Building **On-Premise LLM Systems · RAG Pipelines · Agentic Development**
 | **보안 점검 자동화 플랫폼** | 점검·조치 자동화 데스크톱 플랫폼 — 확장형 에이전트 아키텍처, 실시간 스트리밍 UI | PySide6 · Bash/PowerShell 에이전트 · SQLite | 🏗 개발 중 |
 | **qna-dataset-generator** | PDF→QnA 데이터셋 다단계 파이프라인 — 시맨틱 청킹, LLM Judge 평가, ROUGE 중복·과복사 검증, 멀티호스트 GPU 병렬 | Python · Ollama · pdfplumber | ✅ 완료 |
 | **claude_dashboard** | Claude Code 토큰 사용량 대시보드 — 로컬 JSONL 로그 파싱 기반 증분 수집·멱등 적재·시각화 | FastAPI · PostgreSQL · Grafana | ✅ 운영 |
-| **tistory-mcp** | 블로그 운영을 AI 클라이언트의 MCP 도구로 노출 — 세션 기반 API 어댑터, 마크다운→HTML 변환, 발행 안전 게이트(비공개 기본·삭제 확인·호출 상한) | Python · MCP SDK · httpx · Playwright | ✅ v0.1.2 |
+| [**tistory-mcp**](https://github.com/jangsejong/tistory-mcp) | 티스토리 블로그 운영을 AI 클라이언트의 MCP 도구로 노출 — 세션 기반 API 어댑터, 마크다운→HTML 변환, 발행 안전 게이트(비공개 기본·삭제 확인·호출 상한) | Python · MCP SDK · httpx · Playwright | ✅ v0.2.0 · 공개 |
 | **wslim** | WSL2 가상디스크 용량 회수 자동화 — 부팅 없는 fstrim, 기본 dry-run, 볼륨 삭제 경로 없음 | PowerShell · Pester | ✅ v0.3.1 |
 | **AI Usage Hub** | 조직 AI/LLM 사용량 통합 모니터링 — 2계층 수집(Admin API + LiteLLM 게이트웨이), Shadow AI 가시화, 인원 단위 비용 집계 | FastAPI · Next.js · LiteLLM | 🧪 POC |
 
@@ -115,6 +115,9 @@ Phone : 010-8931-이육구일
 
 <!--
 Changelog
+### v2.7.0 (2026-10-27)
+- tistory-mcp 공개 저장소 링크 추가(Public 전환), 상태 v0.2.0, 설명에 티스토리 명시
+
 ### v2.6.0 (2026-10-16)
 - Featured Projects·About Me·헤더 문구를 대외비 기준으로 일반화 — 고객 유형·도메인·공모전·국책과제·팀명 표기 제거, 프로젝트명 일반화, 내부 산출물 수치 제거
 - 📝 Writing 섹션 추가: 블로그 글 「Claude Code 6개월 써보고 정리한, Claude 잘 쓰는 법」 링크와 블로그 주소
